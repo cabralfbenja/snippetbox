@@ -1,0 +1,20 @@
+{{template "base" .}}
+{{define "title"}}About{{end}}
+{{define "body"}}
+<div>
+  <h2>About</h2>
+  <p>This is a project made based on Alex Edward's book, Let's Go</p>
+  <div style="text-align: center; margin: 20px 0;">
+    <img src="/static/img/lets_go.jpg" alt="Let's Go book cover"
+      style="max-width: 200px; height: auto; display: block; margin: 0 auto;">
+    <div style="margin-top: 10px;">
+      <a href="https://www.alexedwards.net/book/lets-go" target="_blank">Let's Go</a>
+      <br>
+      <span>by Alex Edwards</span>
+    </div>
+  </div>
+  <p>It is a web application for creating and sharing snippets of code.</p>
+  <p>It allows users to create, view, and manage code snippets with features like syntax highlighting, expiration dates,
+    and user authentication.</p>
+</div>
+{{end}}
